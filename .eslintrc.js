@@ -1,18 +1,23 @@
 module.exports = {
+  root: true,
   env: {
     es6: true,
     node: true
   },
-  extends: ["eslint:recommended", "plugin:jest/recommended", "prettier"],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly"
   },
-  plugins: ["jest"],
+  extends: ["eslint:recommended", "plugin:prettier/recommended", "prettier"],
   parser: "babel-eslint",
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: "module"
   },
-  rules: {}
+  overrides: [
+    {
+      files: "**/*.test.js",
+      extends: ["plugin:jest/recommended", "plugin:jest/style"]
+    }
+  ]
 };

@@ -1,4 +1,4 @@
-import { smallestCommons } from "./SmallestCommonMultiple";
+import { smallestCommons } from "./smallestCommonMultiple";
 
 describe("smallestCommons", () => {
   it("returns smallest common multiple", () => {

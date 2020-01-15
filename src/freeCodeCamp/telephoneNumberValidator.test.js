@@ -1,4 +1,4 @@
-import { telephoneCheck } from "./TelephoneNumberValidator";
+import { telephoneCheck } from "./telephoneNumberValidator";
 
 describe("telephoneCheck", () => {
   it("validates telephone number format", () => {
