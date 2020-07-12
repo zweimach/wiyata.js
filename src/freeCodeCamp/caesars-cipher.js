@@ -24,7 +24,7 @@ const listRot13 = {
   W: "J",
   X: "K",
   Y: "L",
-  Z: "M"
+  Z: "M",
 };
 
 function caesarChiper(char) {
@@ -39,8 +39,5 @@ function isLetter(char) {
 }
 
 export function rot13(str) {
-  return str
-    .split("")
-    .map(caesarChiper)
-    .join("");
+  return str.split("").map(caesarChiper).join("");
 }

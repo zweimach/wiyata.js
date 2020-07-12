@@ -8,7 +8,7 @@ export function orbitalPeriod(arr) {
   return arr.map(({ name, avgAlt }) => {
     return {
       name,
-      orbitalPeriod: Math.round(calculate(avgAlt, GM, earthRadius))
+      orbitalPeriod: Math.round(calculate(avgAlt, GM, earthRadius)),
     };
   });
 }

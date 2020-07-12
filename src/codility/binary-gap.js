@@ -5,6 +5,6 @@ export function binaryGap(n) {
   }
   return bins
     .split("1")
-    .map(n => n.length)
+    .map((n) => n.length)
     .reduce((acc, x) => (acc < x ? x : acc), 0);
 }

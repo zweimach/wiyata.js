@@ -13,7 +13,7 @@ export function checkCashRegister(price, cash, cid) {
     "FIVE": 5,
     "TEN": 10,
     "TWENTY": 20,
-    "ONE HUNDRED": 100
+    "ONE HUNDRED": 100,
   };
 
   let change = cid
@@ -40,7 +40,7 @@ export function checkCashRegister(price, cash, cid) {
         }
       }
     })
-    .filter(array => array !== undefined);
+    .filter((array) => array !== undefined);
 
   if (totalChange !== 0) {
     return { status: "INSUFFICIENT_FUNDS", change: [] };

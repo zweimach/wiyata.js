@@ -6,7 +6,7 @@ function parseRoman(str, pos = 0) {
     3: "L",
     4: "C",
     5: "D",
-    6: "M"
+    6: "M",
   };
 
   switch (str) {
