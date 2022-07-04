@@ -1,4 +1,4 @@
-import { oddOccurrencesInArray } from "@/codility/odd-occurrences-in-array";
+import { oddOccurrencesInArray } from "./odd-occurrences-in-array";
 
 describe("oddOccurrencesInArray", () => {
   it("returns unpaired element", () => {

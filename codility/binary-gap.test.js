@@ -1,4 +1,4 @@
-import { binaryGap } from "@/codility/binary-gap";
+import { binaryGap } from "./binary-gap";
 
 describe("binaryGap", () => {
   it("returns longest sequence of consecutive zeros", () => {

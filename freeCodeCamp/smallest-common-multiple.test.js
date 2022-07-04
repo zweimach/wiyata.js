@@ -1,4 +1,4 @@
-import { smallestCommons } from "@/freeCodeCamp/smallest-common-multiple";
+import { smallestCommons } from "./smallest-common-multiple";
 
 describe("smallestCommons", () => {
   it("returns smallest common multiple", () => {

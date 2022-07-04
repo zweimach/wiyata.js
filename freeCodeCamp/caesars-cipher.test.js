@@ -1,4 +1,4 @@
-import { rot13 } from "@/freeCodeCamp/caesars-cipher";
+import { rot13 } from "./caesars-cipher";
 
 describe("rot13", () => {
   it("returns encrypted string", () => {

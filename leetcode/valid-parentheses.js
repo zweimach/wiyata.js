@@ -1,4 +1,4 @@
-export function validParentheses(str) {
+export function isValid(str) {
   const stack = [];
   const mappings = { "{": "}", "[": "]", "(": ")" };
   const last = () => stack[stack.length - 1];

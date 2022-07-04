@@ -1,4 +1,4 @@
-import { integerToRoman } from "@/leetcode/integer-to-roman";
+import { integerToRoman } from "./integer-to-roman";
 
 describe("integerToRoman", () => {
   it("returns roman numerals", () => {

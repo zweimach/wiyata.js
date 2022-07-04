@@ -1,4 +1,4 @@
-import { telephoneCheck } from "@/freeCodeCamp/telephone-number-validator";
+import { telephoneCheck } from "./telephone-number-validator";
 
 describe("telephoneCheck", () => {
   it("validates telephone number format", () => {
